@@ -1,0 +1,39 @@
+body {
+    background-image: url('../images/smoky-mountains-view-blue-ridge.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container {
+    background-color: rgba(255, 255, 255,.2);
+}
+.buttons {
+    display: inline-block;
+    padding-left: 37%;
+    padding-top: 5%;
+}
+.about {
+    
+    
+       
+}
+.resume {
+   
+    
+    
+}
+.projects {
+    
+    
+    
+} 
+h2 {
+    color:#165a0c;
+    text-align: center;
+    margin-top: 75px;
+    position: relative;
+}
