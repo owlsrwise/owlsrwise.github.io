@@ -18,30 +18,18 @@ body {
 .top-nav a {
     float: none;
     color: rgb(209, 77, 29);
-    
+    display: inline-block;
     text-align: center;
     padding: 15px 35px;
     text-decoration: none;
+    white-space: nowrap;
 }
 .top-nav a:hover {
-    color: beige;
+    color: gray;
 }
 .top-nav a:active {
     color: beige;
 }
-
-.about {
-    
-       
-}
-.resume {
-   
-    
-}
-.projects {
-    
-    
-} 
 h2 {
     color: rgb(74, 74, 74);
     text-shadow: 1px 1px 1px beige;
@@ -50,7 +38,7 @@ h2 {
     position: relative;
 }
 h3 {
-    color: rgb(22, 97, 22);
+    color: rgb(30, 124, 201);
     text-align: center;
     text-shadow: .5px .5px .5px beige;
     margin-top: -33px;

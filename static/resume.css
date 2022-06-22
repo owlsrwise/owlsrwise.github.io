@@ -1,0 +1,15 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+}
+.top-nav {
+    position: relative;
+    text-align: left;
+    height: 50px;
+    background: linear-gradient(to right, rgb(17, 68, 17), beige);
+    background: -o-linear-gradient(to right, rgb(17, 68, 17), beige);
+    background: -moz-linear-gradient(to right, rgb(17, 68, 17), beige);
+    background: -webkit-linear-gradient(to right, rgb(17, 68, 17), beige);
+}
+h2 {
+    color: beige;
+}
