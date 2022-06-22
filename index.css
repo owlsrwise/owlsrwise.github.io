@@ -8,14 +8,26 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
-.container {
-    background-color: rgba(255, 255, 255,.2);
+.top-nav {
+    position: relative;
+    background-color: none;
+    overflow: hidden;
+    text-align: center;
 }
-.buttons {
-    display: inline-block;
-    padding-left: 37%;
-    padding-top: 5%;
+.top-nav a {
+    float: none;
+    color: rgb(209, 77, 29);
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
 }
+.top-nav a:hover {
+    color: beige;
+}
+.top-nav a:active {
+    color: beige;
+}
+
 .about {
     
        
