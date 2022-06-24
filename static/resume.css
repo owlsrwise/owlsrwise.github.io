@@ -1,15 +1,73 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
-    font-family: 'Times New Roman', sans-serif;
+    font-family: monospace, sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .top-nav {
-    position: relative;
-    text-align: left;
-    height: 50px;
-    background: linear-gradient(to right, rgb(17, 68, 17), beige);
-    background: -o-linear-gradient(to right, rgb(17, 68, 17), beige);
-    background: -moz-linear-gradient(to right, rgb(17, 68, 17), beige);
-    background: -webkit-linear-gradient(to right, rgb(17, 68, 17), beige);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.2s;
+    background-image:linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), rgb(190, 234, 190, .2));
+    background-image:-o-linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), rgb(190, 234, 190, .2));
+    background-image:-moz-linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), rgb(190, 234, 190, .2));
+    background-image:-ms-linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), rgb(190, 234, 190, .2));
+    overflow: hidden;
+    text-align: center;
 }
-h2 {
-    color: beige;
+.top-nav a {
+    float: none;
+    color: rgb(30, 30, 108);
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    padding: 25px 35px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.top-nav a:hover {
+    color: gray;
+}
+.top-nav a:active {
+    color: goldenrod;
+}
+.top-nav a.resume {
+    border-bottom: 2px solid goldenrod;
+}
+h3 {
+    font-style: italic;
+    color: black;
+    margin-top: 100px;
+    margin-left: 40px;
+    position: relative;
+}
+section p {
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+}
+section li {
+    font-size: smaller;
+    margin-left: 45px;
+    margin-right: 40px;
+    position: relative;
+}
+.education {
+    margin-bottom: 0;
+}
+.experience {
+    margin-top: -60px;
+    margin-bottom: 0;
+}
+.skills {
+    margin-top: -60px;
+    padding-bottom: 50px;
 }
