@@ -34,7 +34,13 @@ body {
 .top-nav a.about {
     border-bottom: 2px solid goldenrod;
 }
-.about {
+h3 {
+    font-style: italic;
+    color: black;
+    margin-top: 100px;
+    position: relative;
+}
+.aboutMe {
     margin-left: 40px;
     margin-right: 40px;
     position: relative;
