@@ -4,34 +4,35 @@ html {
 body {
     font-family: monospace, sans-serif;
 }
-.top-nav {
+nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-image:linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), rgb(190, 234, 190, 0));
-    background-image:-o-linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), rgb(190, 234, 190, 0));
-    background-image:-moz-linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), rgb(190, 234, 190, 0));
-    background-image:-ms-linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), rgb(190, 234, 190, 0));
+    background-image:linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), #dfdbcc);
+    background-image:-o-linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), #dfdbcc);
+    background-image:-moz-linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), #dfdbcc);
+    background-image:-ms-linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), #dfdbcc);
     overflow: hidden;
     text-align: center;
+    z-index: 1;
 }
-.top-nav a {
+nav a {
     float: none;
     color: rgb(30, 30, 108);
     font-weight: bold;
     display: inline-block;
     text-align: center;
-    padding: 25px 35px;
+    padding: 25px 25px;
     text-decoration: none;
     white-space: nowrap;
 }
-.top-nav a:hover {
+nav a:hover {
     color: gray;
 }
-.top-nav a:active {
+nav a:active {
     color: goldenrod;
 }
-.top-nav a.about {
+nav a.about {
     border-bottom: 2px solid goldenrod;
 }
 h3 {
@@ -44,4 +45,5 @@ h3 {
     margin-left: 40px;
     margin-right: 40px;
     position: relative;
+    
 }

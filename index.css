@@ -12,28 +12,29 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
-.top-nav {
+nav {
     position: fixed;
     top: 0;
     width: 100%;
     background-color: none;
     overflow: hidden;
     text-align: center;
+    z-index: 1;
 }
-.top-nav a {
+nav a {
     float: none;
     color: rgb(30, 30, 108);
     font-weight: bold;
     display: inline-block;
     text-align: center;
-    padding: 25px 35px;
+    padding: 25px 25px;
     text-decoration: none;
     white-space: nowrap;
 }
-.top-nav a:hover {
+nav a:hover {
     color: gray;
 }
-.top-nav a:active {
+nav a:active {
     color: beige;
 }
 h2 {
