@@ -35,10 +35,16 @@ nav a:active {
 nav a.about {
     border-bottom: 2px solid goldenrod;
 }
-h3 {
+#path h3{
     font-style: italic;
     color: black;
     margin-top: 100px;
+    position: relative;
+}
+#tidbits h3 {
+    font-style: italic;
+    color: black;
+    margin-top: 40px;
     position: relative;
 }
 .aboutMe {
