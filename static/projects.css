@@ -59,6 +59,7 @@ text-decoration: none;
 transition: background-position 0.1s ease 0s;
 vertical-align: top;
 border-radius: 7px;
+box-shadow: 1px 1px 1px whitesmoke;
 }
 .tile:hover {
 background-position: 100% 0;
