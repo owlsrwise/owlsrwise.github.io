@@ -39,7 +39,7 @@ nav a:active {
 }
 h2 {
     color: rgb(181, 223, 224);
-    text-shadow: gray;
+    text-shadow: .5px .5px .5px rgb(30, 30, 108);
     text-align: center;
     margin-top: 100px;
     position: relative;
@@ -47,7 +47,7 @@ h2 {
 h3 {
     color: goldenrod;
     text-align: center;
-    margin-top: -33px;
+    margin-top: -30px;
     position: relative;
 }
 .watermark {
