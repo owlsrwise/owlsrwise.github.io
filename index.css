@@ -43,12 +43,14 @@ h2 {
     text-align: center;
     margin-top: 100px;
     position: relative;
+    height: auto;
 }
 h3 {
     color: goldenrod;
     text-align: center;
     margin-top: -30px;
     position: relative;
+    height: auto;
 }
 .watermark {
     position: fixed; bottom: 0; right: 0;
