@@ -16,10 +16,10 @@ nav {
     top: 0;
     width: 100%;
     transition: top 0.2s;
-    background-image:linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), #dfdbcc);
-    background-image:-o-linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), #dfdbcc);
-    background-image:-moz-linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), #dfdbcc);
-    background-image:-ms-linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), #dfdbcc);
+    background-image:linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), #e2dac3);
+    background-image:-o-linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), #e2dac3);
+    background-image:-moz-linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), #e2dac3);
+    background-image:-ms-linear-gradient(rgb(30, 30, 108), rgb(181, 223, 224), #e2dac3);
     overflow: hidden;
     text-align: center;
     z-index: 1;
